@@ -1,0 +1,716 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.navBar {
+    height: 50px;
+    background-color: #23252B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.navBar img {
+    height: 45px;
+    padding-top: 3px;
+}
+.hidden {
+    width: 500px ;
+    display: flex;
+    gap: 15px;
+    padding-left: 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: azure;
+}
+
+.buttonOption {
+    text-decoration: none;
+}
+
+.buttonOption:hover {
+    color: #F28F3B;
+}
+
+.hidden a {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    font-size: 25px;
+    
+}
+
+.icon {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 35px;
+    color: #F28F3B;
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+
+.port {
+    color: #F28F3B;
+}
+
+.folio {
+    color: #C8553D;
+}
+
+
+
+
+.mainMenu {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 140px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.mainMenu img {
+    width: 500px;
+    height: 250px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.mainMenu h1 {
+    color: #F28F3B;
+    width: 250px;
+}
+
+.mainMenu h2  {
+    color: #C8553D;
+
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+}
+
+
+.profile {
+    margin-top: -25px;
+    display: flex;
+    gap: 134px;
+    margin-left: -290px;
+}
+
+.profile img {
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.cv {
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center ;
+    color: #F28F3B;
+    
+    gap: 15px;
+    transition: 0.2s;
+}
+
+.cv:hover {
+    background-color: #202124;
+    color: #F28F3B;
+}
+
+.cv i {
+    font-size: 35px;
+}
+
+.cv1 {
+    text-decoration: none;
+}
+
+.pres {
+    width: 400px;
+}
+
+.pres2 {
+    color: #23252B;
+}
+
+#projet p {
+    color: #F28F3B;
+    text-transform: capitalize;
+}
+
+.pres3 {
+    color: #F28F3B;
+}
+
+.pres4 {
+    color: #F28F3B;
+}
+
+.propos {
+    margin-left: 50px;
+}
+
+#projet {
+    color: #F28F3B;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #23252B;
+    height: 75px;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    background-color: #23252B;
+    padding-bottom: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navBar i {
+    font-size: 30px;
+    display: flex;
+    margin-right: 30px;
+    color: #F28F3B;
+}
+
+
+.projectText {
+    margin-top: 35px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    color:#fff;
+}
+
+.text2 {
+    display: flex;
+    justify-content: center;
+    color:#fff;
+}
+
+.udpDescription {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #F28F3B;
+    margin-top: 30px;
+}
+
+.engDescription {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 23px;
+}
+
+.engDescription p{
+    color: #fff;
+}
+
+#competence {
+    color: #F28F3B;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.langage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.langage img {
+    width: 150px;
+    height: 150px;
+}
+
+.firstRow1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.secondRow1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cSharp p  {
+    color: white;
+}
+
+.cSharp i {
+    font-size: 20px;
+    color: #E02654;
+} 
+
+
+.html p  {
+    color: white;
+}
+
+.html i {
+    font-size: 20px;
+    color: #E02654;
+}
+
+#lastStar1 {
+    opacity: 50%;
+}
+
+
+.python p  {
+    color: white;
+}
+
+.python i {
+    font-size: 20px;
+    color: #E02654;
+}
+
+#lastStar2 {
+    opacity: 50%;
+}
+
+
+.swift p  {
+    color: white;
+}
+
+.swift i {
+    font-size: 20px;
+    color: #E02654;
+}
+
+#lastStar2 {
+    opacity: 50%;
+}
+
+.secondRow {
+    display: flex;
+    gap: 150px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.CSS p  {
+    color: white;
+}
+
+.CSS i {
+    font-size: 20px;
+    color: #E02654;
+}
+
+#lastStar1 {
+    opacity: 50%;
+}
+
+
+.Javascript p  {
+    color: white;
+}
+
+.Javascript i {
+    font-size: 20px;
+    color: #E02654;
+}
+
+#lastStar2 {
+    opacity: 50%;
+}
+
+
+.php p  {
+    color: white;
+}
+
+.php i {
+    font-size: 20px;
+    color: #E02654;
+}
+
+#lastStar2 {
+    opacity: 50%;
+}
+
+#service {
+    color: #E02654;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 30px;
+    border: 3px solid #202124;
+    border-left-style: none;
+    border-right-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+}
+
+.allServices {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+}
+
+.allServices i {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.bdd {
+    height: 246px;
+    width: 356px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+.bdd:hover {
+    background-color: white;
+    color: #E02654;
+    font-size: 25px;
+}
+
+
+
+.uxui {
+    height: 246px;
+    width: 356px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+
+.uxui:hover {
+    background-color: white;
+    color: #E02654;
+    font-size: 25px;
+}
+
+
+.inte {
+    height: 246px;
+    width: 356px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+
+.inte:hover {
+    background-color: white;
+    color: #E02654;
+    font-size: 25px;
+}
+
+#contact {
+    color: #F28F3B;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #23252B;
+    text-transform: capitalize;
+}
+
+.information {
+    margin-top: 20px;
+    height: 370px;
+}
+
+.moreInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    background-color: #23252B;
+    height: 320px;
+}
+
+.location {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.call {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.adress {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.epitech  {
+    height: 230px;
+    width: 230px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+.epitech i  {
+    color: #F28F3B;
+    font-size: 30px;
+}
+
+.epitech:hover {
+    background-color: #FFF;
+    color: #C8553D;
+}
+
+
+.telNumber i  {
+    color: #F28F3B;
+    font-size: 30px;
+}
+
+.email i  {
+    color: #F28F3B;
+    font-size: 30px;
+}
+
+.telNumber  {
+    height: 230px;
+    width: 230px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+.telNumber:hover {
+    background-color: #FFF;
+    color: #C8553D;
+}
+
+
+.email {
+    height: 230px;
+    width: 230px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    transition: 0.2s;
+    font-size: 15px;   
+}
+
+.email:hover {
+    background-color: #FFF;
+    color: #C8553D;
+}
+
+
+.contactMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #23252B;
+    height: 500px;
+}
+
+.intro {
+    font-size: 50px;
+}
+
+
+
+
+.firstRow p {
+    text-transform: capitalize;
+}
+
+.secondRow p {
+    text-transform: capitalize;
+}
+
+
+.infoContact {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.may {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.udp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.englishBootcamp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.may img {
+    height: 250px;
+    width: 250px;
+    margin-top: 28px;
+}
+
+.udp img {
+    height: 250px;
+    width: 250px;
+}
+
+.udp p {
+    margin-top: 5px;
+}
+
+.englishBootcamp img {
+    height: 250px;
+    width: 350px;
+}
+
+.englishBootcamp p {
+    color: #fff;
+}
+
+#js {
+    font-size: 150px;
+}
+
+#htmlIcon {
+    font-size: 150px;
+}
+
+#cssIcon {
+    font-size: 150px;
+}
+
+.freshmen img {
+    height: 250px;
+    width: 350px;
+}
+
+.freshmen {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #F28F3B;
+    margin-top: 25px;
+}
+
+.text11 {
+    margin-top: 40px;
+}
+
+.void10 {
+    margin-top: 50px;
+    height: 50px;
+    background-color: #FFF;
+}
+
+footer {
+    padding-top: 25px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #23252B;
+    color: #F28F3B;
+}

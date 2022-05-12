@@ -1,0 +1,134 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.navBar {
+    height: 50px;
+    background-color: #23252B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.navBar img {
+    height: 45px;
+    padding-top: 3px;
+}
+.hidden {
+    width: 500px ;
+    display: flex;
+    gap: 15px;
+    padding-left: 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: azure;
+}
+
+.buttonOption {
+    text-decoration: none;
+}
+
+.buttonOption:hover {
+    color: #F28F3B;
+}
+
+.hidden a {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    font-size: 25px;
+    
+}
+
+.icon {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 35px;
+    color: #F28F3B;
+    gap: 25px;
+}
+
+.icon a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #F28F3B;
+}
+
+
+.port {
+    color: #F28F3B;
+}
+
+.folio {
+    color: #C8553D;
+}
+
+
+.firstPart{
+    margin-top: 40px;
+    padding-left: 150px;
+}
+
+.projects {
+    margin-top: 40px;
+    
+}
+
+.may{
+    height: 250px;
+    width: 250px;
+}
+
+.myProjects {
+    text-transform: uppercase;
+    color: #F28F3B;
+}
+
+.companies {
+    text-transform: capitalize;
+
+}
+
+.nameProject {
+    display: flex;
+    gap: 50px;
+}
+
+.firstRow {
+    display: flex;
+}
+
+.secondRow {
+    display: flex;
+}
+
+.cucina  {
+    width: 350px;
+}
+
+footer {
+    padding-top: 25px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #23252B;
+    color: #F28F3B;
+}
